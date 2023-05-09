@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: Poppins, serif;
+}
+
+h1,
+h2 {
+    background-color: black;
+background-size: auto;
+    color:teal;
+    font-size: 20px;
+}
+
+body {
+    background: linear-gradient(to bottom, #f2f2f2, #d9d9d9);
+}
+
+p {
+    font-size: 15px;
+    color: black;
+}
+
+.top-page {
+    position: relative;
+}
+
+.desaweb {
+    text-align: center;
+    font-size: 30px;
+}
+
+.texto-principal {
+    font-weight: bolder;
+    font-size: 22px;
+    text-align: center;
+    margin: 2%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+}
+
+.frontend, .backend {
+    font-size: 25px;
+}
+
+header {
+    max-width: 100%;
+    height: 10%;
+    background-image: url("programacion.jpg")
+}
+
+.foot {
+    background-color: forestgreen;
+    max-width: 100%;
+    height: 6%;
+    background-image: url("programacion.jpg")
+}
+
+.foot-txt {
+    font-size: 20px;
+    font-weight: bolder;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.item-1 {
+    background-color: black;
+}
+
+.item-1,
+.item-2 {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 0%;
+    margin: 0%;
+}
+
+.item-1,
+.item-2 {
+    padding: 0px;
+}
+
+.item-2 {
+    color: white;
+    background-color: black;
+    list-style: decimal;
+    justify-content: space-evenly;
+    padding: 0%;
+    margin: 0%;
+}
+
+.head,
+.menu {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.menu-2 {
+    position: sticky;
+    width: 100%;
+    top: 9%;
+    left: 0%;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.copy {
+    color: white;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+  }
+  .image {
+    float: right;
+    margin-left: 20px;
+  }
+  .text {
+    font-weight: bolder;
+    font-size: 40px;
+    margin-right: 20px;
+    text-align:left;
+  }
+
+.text_2 {
+    font-weight: bolder;
+    margin-right: 30px;
+    text-align:left;
+}
+
+/* .texto-y-foto {
+    background-color: green
+}
+
+.texto-y-foto {
+    font-size: rem;
+    margin-right: 10px;
+}
+
+.texto-y-foto .programando {
+    width: 500px;
+    float: right;
+} */
+
+/* width: ; es para ponerle el tamaño de cada cosa */
+/* font-weight: ; para definir el grosor de la letra */
+/* font-style: ; para poner en cursiva */

@@ -1,0 +1,16 @@
+body {
+    margin-top: 180px;
+    margin-left: 420px;
+    margin-bottom: 180px;
+    margin-right: 420px;
+    border: 5px solid white;
+    padding: 6px;
+    background-image: url("programacion_2.gif");
+}
+
+.form__container {
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration: underline;
+    color: white;
+}

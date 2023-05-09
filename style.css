@@ -1,0 +1,46 @@
+.lu, .ma, .mie, .jue, .vie, .sab, .hda {
+    font-weight: bolder;
+    font-size: 22px;
+    color:white
+}
+
+.lu1, .lu2, .ma1, .ma2, .mie1, .mie2, .jue1, .jue2, .vie1, .vie2, .sab1 {
+    font-style: italic;
+    font-size: 18px;
+    color:whitesmoke
+    
+}
+
+.lu, .mie, .vie {
+    background-color:rgba(0, 255, 0, 0.5);
+}
+
+.lu1, .lu2, .mie1, .mie2, .vie1, .vie2 {
+    background-color:rgba(0, 255, 0, 0.5);
+}
+
+.ma, .jue, .sab {
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.ma1, .ma2, .jue1, .jue2, .sab1 {
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.hda {
+    text-decoration: underline;
+}
+
+.dias, .horarios {
+    text-align: center;
+    color: azure;
+}
+
+body {
+    margin-top: 180px;
+    margin-left: 420px;
+    margin-bottom: 180px;
+    margin-right: 420px;
+    padding: 6px;
+    background-image: url("programacion_2.gif");
+}
